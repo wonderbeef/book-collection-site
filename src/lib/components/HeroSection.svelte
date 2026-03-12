@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { Button } from '$components';
     import heroImage from './../assets/hero.png'
 </script>
 <section class= "default-margin hero">
@@ -11,7 +12,7 @@
         <h4 class="mb-s">
             Our app offers a beautifully designed interface for $0 (for now, huehuehuehue)
         </h4>
-        <button>Sign up</button>
+        <Button href="/register">Sign Up</Button>
     </div>
     <img class="hero-image" src={heroImage} alt="">
 </section>
